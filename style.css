@@ -5,16 +5,9 @@ body
 	background-size: 100%;
 }
 
-.fond
-{
-	width: 50%;
-	height: 10%;
-	border-radius: 10px;
-	background: rgba(179,179,179,0.5);
-	margin: 25px auto;
-}
 
-/*  Police   */ 
+
+/*  Police   */
 @font-face
 {
 	font-family: 'LifeCraft_Font';
@@ -35,12 +28,26 @@ body
 	width: 150px;
 	height: auto;
 }
+/* le conteneur qui contient les deux contenus */
+#conteneurtotal{
+	display: flex;
+	flex-direction: column;
+}
 
-/* Flex box */
+/* Flex box contenu1 */
 #conteneur
 {
 	display: flex;
 	flex-direction: column;
+
+}
+.fond
+{
+	width: 50%;
+	height: 10%;
+	border-radius: 10px;
+	background: rgba(179,179,179,0.5);
+	margin: 25px auto;
 }
 
 h1
@@ -57,4 +64,31 @@ h1
 	margin-top: 50px;
 	font-family: 'LifeCraft_Font';
 	color: white;
+
+}
+/*Flex box contenu2 */
+#conteneur2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+/* les nouvelles du site */
+.News{
+	border-radius: 10px;
+	background: rgba(179,179,179,0.5);
+	margin: 25px auto;
+	width: 300px;
+	height: auto;
+}
+/* les objectifs de la guilde */
+
+.objectifs{
+	border-radius: 10px;
+	background: rgba(179,179,179,0.5);
+	margin: 25px auto;
+	width: 300px;
+	height: auto;
 }
