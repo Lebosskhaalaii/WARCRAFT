@@ -58,3 +58,7 @@ h1
 	font-family: 'LifeCraft_Font';
 	color: white;
 }
+
+p {
+	margin: 0;
+}
