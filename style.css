@@ -5,14 +5,11 @@ body
 	background-size: 100%;
 }
 
-
-
 /*  Police   */
 @font-face
 {
 	font-family: 'LifeCraft_Font';
 	src: url('font/LifeCraft_Font.ttf') format('opentype');
-
 }
 
 /* LOGO */
@@ -44,7 +41,7 @@ body
 .fond
 {
 	width: 50%;
-	height: 10%;
+	height: 12%;
 	border-radius: 10px;
 	background: rgba(179,179,179,0.5);
 	margin: 25px auto;
@@ -75,30 +72,61 @@ p{
 	height: auto;
 }
 
-li {
+.News li {
 	border-top: 1px solid rgba(255,255,255,0.3);
 	border-bottom: 1px solid rgba(0,0,0,0.1); 
 	text-align: center;
 	padding: 10px;
 }
 
-ul {
+.News ul {
 	list-style: none;
 	padding: 10px;
 	border: 2px solid #4e4647;
 }
 
-a {
+.News a {
 	text-decoration: none;
 	color: white;
 	padding: 12px 100px 12px 100px;
 }
 
-a:hover {
+.News a:hover {
 	background: rgba(179,179,179,0.2);
 }
 
-/* Présenation */
+/* Navbar */
+
+#navigation2 {
+	background: rgba(179,179,179,0.5);
+	border-radius: 10px;
+	max-width: 300px;
+	height: auto;
+}
+
+.objectifs li {
+	border-top: 1px solid rgba(255,255,255,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.1); 
+	padding: 10px;
+}
+
+.objectifs ul {
+	list-style: none;
+	padding: 10px;
+	border: 2px solid #4e4647;
+}
+
+.objectifs a {
+	text-decoration: none;
+	color: white;
+	padding: 12px 70px 12px 70px;
+}
+
+.objectifs a:hover {
+	background: rgba(179,179,179,0.2);
+}
+
+/* Présentation */
 
 .presentation {
 	margin-top: 50px;
@@ -119,13 +147,8 @@ a:hover {
 
 .objectifs{
 	border-radius: 10px;
-	background: rgba(179,179,179,0.5);
 	margin: 25px auto;
 	max-width: 300px;
 	height: auto;
-	border: 2px solid #4e4647;
 }
 
-.objectifs p {
-	padding: 10px;
-}
