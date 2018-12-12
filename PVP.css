@@ -4,22 +4,33 @@ body{
 	background-repeat: no-repeat;
 	margin: 30px 30px 30px 30px;
 }
-
+@font-face
+{
+	font-family: 'LifeCraft_Font';
+	src: url('font/LifeCraft_Font.ttf') format('opentype');
+}
 
 }
 #conteneur{
-	display:flex;
-	
-	
-
+	display: flex;
 }
 
-.fond{
+#contenu1{
+	display: flex;
+	flex-direction: column;
+}
+#fond{
 	width: 100%;
 	height: 100%;
 	background: rgba(179,179,179,0.5);
 }
 h1{
+	font-family: 'LifeCraft_Font';
 	text-align: center;
-	
+	color: black;
+	text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.75);
+	}
+	.tetepage img{
+		height: 200px;
+		width: auto;
 }

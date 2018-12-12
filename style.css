@@ -25,6 +25,7 @@ body
 	width: 150px;
 	height: auto;
 }
+
 /* le conteneur qui contient les deux contenus */
 #conteneurtotal{
 	display: flex;
